@@ -58,7 +58,7 @@ kubectl apply -f account-service/k8s.yaml
 ```
 
 Repeat for the other services.  Note that you must build and push the
-container images to a registry accessible by your cluster ('account-service:latest'
+container images to a registry accessible by your cluster ('transaction-service:latest'
 in the manifest is a placeholder).
 
 ## Purpose and Caveats
